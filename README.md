@@ -104,7 +104,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 👨‍💻 Geliştirici
 
-**Ali Rıza Kalkan**
+**Ali Rubar Kal**
 
 - GitHub: [@alirkal34-jpg](https://github.com/alirkal34-jpg)
 - Website: [DevMuscle](https://devmuscle39.netlify.app/)
