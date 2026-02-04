@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevMuscle | Gücünü Keşfet</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="img/images.png"
+        alt="DevMuscle logo"
+        class="nav__logo"
+        id="logo"
+      />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Özellikler</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Programlar</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Dönüşümler</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--4">Antrenörler</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#"
+            >Ücretsiz Deneme</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="header__bg-overlay"></div>
+      <div class="header__title">
+        <h1>
+          Gücünü <span class="highlight">Keşfet</span><br />
+          Limitlerini <span class="highlight">Aş</span>
+        </h1>
+        <h4>Sadece bir fitness salonu değil, bir yaşam tarzı.</h4>
+        <button class="btn--text btn--scroll-to">
+          Keşfet <span class="arrow-animate">↓</span>
+        </button>
+        <img
+          src="img/mainpic.jpg"
+          class="header__img"
+          alt="DevMuscle fitness"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Özellikler</h2>
+        <h3 class="section__header">
+          Modern bir fitness merkezinde ihtiyacın olan her şey.
+        </h3>
+      </div>
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/gym3.jpeg"
+          alt="Ekipmanlar"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg><use xlink:href="img/icons.svg#icon-monitor"></use></svg>
+          </div>
+          <h5 class="features__header">Son Teknoloji Ekipmanlar</h5>
+          <p>
+            En yeni nesil fitness ekipmanları ile antrenmanlarını maksimum
+            verimlilik ile gerçekleştir.
+          </p>
+        </div>
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg><use xlink:href="img/icons.svg#icon-trending-up"></use></svg>
+          </div>
+          <h5 class="features__header">Kişisel Gelişim Takibi</h5>
+          <p>
+            İlerleme kayıtların düzenli olarak takip ediliyor. Hedeflerine
+            ulaşman için yanındayız.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/gym1.jpeg"
+          alt="Gelişim"
+          class="features__img lazy-img"
+        />
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/gym2.jpeg"
+          alt="Kart"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+          </div>
+          <h5 class="features__header">Esnek Üyelik Seçenekleri</h5>
+          <p>
+            Aylık veya yıllık seçenekler ile bütçene en uygun planı seç. Gizli
+            maliyet yok.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Programlar</h2>
+        <h3 class="section__header">Hedef odaklı antrenman programları.</h3>
+      </div>
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Kas Geliştirme
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Kilo Verme
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Fonksiyonel
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg><use xlink:href="img/icons.svg#icon-upload"></use></svg>
+          </div>
+          <h5 class="operations__header">
+            Kas kütleni artır, gücünü maksimize et
+          </h5>
+          <p>
+            Profesyonel koçlarımız eşliğinde özel kas geliştirme programları.
+          </p>
+        </div>
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg><use xlink:href="img/icons.svg#icon-home"></use></svg>
+          </div>
+          <h5 class="operations__header">Sağlıklı kilo ver, formunda kal</h5>
+          <p>Kardiyovasküler antrenmanlar ve beslenme danışmanlığı.</p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg><use xlink:href="img/icons.svg#icon-user-x"></use></svg>
+          </div>
+          <h5 class="operations__header">Günlük yaşamda güçlü ve dinamik ol</h5>
+          <p>Fonksiyonel antrenmanlar ile genel atletizm seviyeni yükselt.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Gerçek Sonuçlar</h2>
+        <h3 class="section__header">Değişimi Başlatanlar</h3>
+      </div>
+
+      <div class="slider" id="slider-transformations">
+        <div class="slide">
+          <div class="transformation-card">
+            <div class="transformation-card__images">
+              <div class="transformation-card__image-wrapper">
+                <img
+                  src="img/degisim1.jpeg"
+                  alt="Dönüşüm 1"
+                  class="transformation-card__img transformation-card__img--single"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="transformation-card">
+            <div class="transformation-card__images">
+              <div class="transformation-card__image-wrapper">
+                <img
+                  src="img/degisim2.jpeg"
+                  alt="Önce-Sonra"
+                  class="transformation-card__img transformation-card__img--single"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="section--4">
+      <div class="section__title">
+        <h2 class="section__description">Takımımız</h2>
+        <h3 class="section__header">Profesyonel Antrenörlerimiz</h3>
+      </div>
+
+      <div class="coaches-container">
+        <div class="coach-card">
+          <div class="coach-card__image-wrapper">
+            <img
+              src="img/grow-lazy.jpg"
+              data-src="img/gym4.jpeg"
+              alt="Yunus Emre Arkan"
+              class="coach-card__img lazy-img"
+            />
+          </div>
+          <div class="coach-card__info">
+            <h5 class="coach-card__name">Yunus Emre Arkan</h5>
+            <div class="coach-card__role">Kurucu</div>
+            <p class="coach-card__description">
+              15 yıllık tecrübesiyle vücut geliştirme ve performans koçluğu
+              alanında uzman. Her sporcunun potansiyelini maksimuma çıkarmak
+              için özel programlar tasarlıyor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          DevMuscle'a katılmak için en iyi zaman ŞİMDİ!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">
+        Ücretsiz deneme hakkını kullan!
+      </button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Hakkımızda</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">İletişim</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Gizlilik Politikası</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Kullanım Şartları</a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; 2026 DevMuscle. Tüm hakları saklıdır.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Ücretsiz deneme seansını <br />hemen
+        <span class="highlight">rezerve et</span>
+      </h2>
+      <form class="modal__form">
+        <label>Ad</label><input type="text" /> <label>Soyad</label
+        ><input type="text" /> <label>E-posta</label><input type="email" />
+        <button class="btn">Gönder &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
