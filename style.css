@@ -734,6 +734,17 @@ h4 {
   z-index: 2;
 }
 
+.transformation-card__images--duo .transformation-card__image-wrapper {
+  flex: 1;
+  max-width: 50%;
+}
+
+.transformation-card__images--duo .transformation-card__img {
+  height: 45rem;
+  object-fit: cover;
+  object-position: top;
+}
+
 .transformation-card__label--before {
   left: 15px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
